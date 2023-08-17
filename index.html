@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Snake Game</title>
+</head>
+<body>
+  <header>
+    <h1>Snake game</h1>
+  </header>  
+  <main>
+    <canvas style="margin: 0 auto;" id="canvas" width="1300" height="600">
+    </canvas>
+  </main>
+  <div class="contributor">
+    <div class="tips"> you can play with this 
+      <div class="important">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="2 -1 20 23" width="30" height="40"><path d="M17.921,1.505a1.5,1.5,0,0,1-.44,1.06L9.809,10.237a2.5,2.5,0,0,0,0,3.536l7.662,7.662a1.5,1.5,0,0,1-2.121,2.121L7.688,15.9a5.506,5.506,0,0,1,0-7.779L15.36.444a1.5,1.5,0,0,1,2.561,1.061Z"/></svg>
+      
+        <code>
+          left,
+        </code> 
+  
+        <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="5 7 15 10" width="35" height="30"><path d="M18,15.5a1,1,0,0,1-.71-.29l-4.58-4.59a1,1,0,0,0-1.42,0L6.71,15.21a1,1,0,0,1-1.42-1.42L9.88,9.21a3.06,3.06,0,0,1,4.24,0l4.59,4.58a1,1,0,0,1,0,1.42A1,1,0,0,1,18,15.5Z"/></svg>
+        <code>top,</code>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="3 0 16 14" width="40" height="40"><path d="M18.71,8.21a1,1,0,0,0-1.42,0l-4.58,4.58a1,1,0,0,1-1.42,0L6.71,8.21a1,1,0,0,0-1.42,0,1,1,0,0,0,0,1.41l4.59,4.59a3,3,0,0,0,4.24,0l4.59-4.59A1,1,0,0,0,18.71,8.21Z"/></svg>
+        <code>down,</code>
+        <svg xmlns="http://www.w3.org/2000/svg" id="Bold" viewBox="3 0 13 19" width="30" height="40"><path d="M15.4,9.88,10.81,5.29a1,1,0,0,0-1.41,0,1,1,0,0,0,0,1.42L14,11.29a1,1,0,0,1,0,1.42L9.4,17.29a1,1,0,0,0,1.41,1.42l4.59-4.59A3,3,0,0,0,15.4,9.88Z"/></svg>
+        <code>right</code>
+      </div>
+      buttons
+    </div>
+  </div>
+ 
+  <style>
+     body{
+      font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+      background-color: blanchedalmond;
+      box-sizing: border-box;
+      margin: 0;
+      border: 0;
+      outline: 0;
+    }
+    header{
+      width: 100%;
+      display: flex;
+      
+      
+    }
+    h1{
+      margin: 5px;
+      margin-left: 35px;
+    }
+    main{
+      display: flex;
+    }
+   
+    canvas{
+      border: 15px solid ;
+      border-color: rebeccapurple red;
+    }
+    
+    .contributor{
+      display: flex;
+      margin: 5px;
+    }
+    .tips{
+      margin: 0 auto;
+      display: flex;
+      font-size: 40px;
+      color: rgb(35, 35, 84);
+    }
+    .important{
+      display: flex;
+      margin: 0;
+      letter-spacing: 2px;
+    }
+
+
+  </style>
+  <script src="./js/script.js"></script>
+</body>
+</html>
